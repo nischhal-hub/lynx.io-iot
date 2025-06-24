@@ -1,4 +1,6 @@
-# 🚀 ESP32 GPS Tracker with Neo6M and Supabase Integration (currently using supabase gonna make our own server 🤟🤟)
+# 🚀 Lynx.io - ESP32 GPS Tracker with Neo6M and Supabase Integration 
+
+(currently using supabase gonna make our own server 🤟🤟)
 
 This project is a GPS tracking system built using an ESP32 and a Neo6M GPS module. It reads real-time location and speed data, and sends it to a [Supabase](https://supabase.com/) backend. If WiFi is unavailable, the data is locally buffered using SPIFFS and retried upon reconnection.
 
