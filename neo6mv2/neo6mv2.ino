@@ -16,7 +16,7 @@
 const char* ssid = ".........._2.4";
 const char* password = "135B@Santa$$246";
 const char *mqtt_broker = "broker.emqx.io";
-const char *topic = "emqx/esp32";
+const char *topic = "vehicle/location";
 const char *mqtt_username = "emqx";
 const char *mqtt_password = "public";
 const int mqtt_port = 1883;
@@ -40,7 +40,6 @@ TinyGPSPlus gps;
 // =========================
 // Helper Functions
 // =========================
-// Fixed: Added missing radians function
 double radians(double degrees) {
   return degrees * PI / 180.0;
 }
