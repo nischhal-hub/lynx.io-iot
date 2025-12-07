@@ -1,3 +1,4 @@
+//demo setup to simulate multiple devices for demonstration
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <SPI.h>
